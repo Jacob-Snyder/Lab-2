@@ -32,3 +32,7 @@ as.null()
 NULL
 #NA stands for "not availible" and indicates a value is missing
 HELP: Need example
+v <- c(2,4,6)
+t <- c(3,5,7)
+print(v-t)
+[1] -1 -1 -1
