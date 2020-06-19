@@ -55,3 +55,15 @@ y%/%z
 [1] 1e+08
 1e+08^2
 [1] 1e+16
+species <- 1000
+if (x >1000 &species <= 2000) {
+print ("jellyfish")
+} else if (x <1000 &species <= 90) {
+print ("cetacean")
+} else if (x <1000 &species <= 80) {
+print ("parrotfish")
+} else if (x> 1000 &species <= 3000) {
+print ("nudibranch")
+} else {
+print("anything")
+}
